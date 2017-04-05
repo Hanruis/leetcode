@@ -1,8 +1,8 @@
-"use strict";
 /**
  * @param {number[]} nums
  * @return {number}
  */
+"use strict";
 var singleNumber = function (nums) {
     if (!nums.length) {
         return undefined;
