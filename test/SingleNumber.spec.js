@@ -1,5 +1,5 @@
 var {expect}  = require('chai');
-var singleNumber = require('../src/SingleNumber');
+var {singleNumber} = require('../src/SingleNumber');
 
 
 describe('singleNumber', function() {

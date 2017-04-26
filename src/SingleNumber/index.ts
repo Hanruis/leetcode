@@ -9,7 +9,7 @@ const singleNumber = function(nums: number[]): number {
     }
     let num;
     nums.forEach(number => {
-        if (typeof num === 'undefined'){
+        if (typeof num === 'undefined') {
             num = number;
         } else {
             num = num ^ number;
@@ -17,4 +17,6 @@ const singleNumber = function(nums: number[]): number {
     });
     return num;
 };
-export = singleNumber;
+export {
+    singleNumber
+};

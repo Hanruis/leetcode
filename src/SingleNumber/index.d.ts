@@ -3,4 +3,4 @@
  * @return {number}
  */
 declare const singleNumber: (nums: number[]) => number;
-export = singleNumber;
+export { singleNumber };

@@ -12,7 +12,7 @@
 "use strict";
 exports.invertTree = function (root) {
     if (!root) {
-        return;
+        return null;
     }
     exports.invertTree(root.left);
     exports.invertTree(root.right);

@@ -1,5 +1,5 @@
 var {expect}  = require('chai');
-var maxDepth = require('../src/MaximumDepthOfBinaryTree');
+var {maxDepth} = require('../src/MaximumDepthOfBinaryTree');
 
 
 describe('MaximumDepthOfBinaryTree', function() {

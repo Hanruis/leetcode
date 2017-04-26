@@ -10,7 +10,7 @@
  * @return {TreeNode}
  */
 
-export interface TreeNode{
+export interface TreeNode {
     val: number;
     left: TreeNode|null;
     right: TreeNode|null;
@@ -19,7 +19,7 @@ export interface TreeNode{
 export const invertTree = function(root: TreeNode): TreeNode {
 
     if (!root) {
-        return;
+        return null;
     }
 
     invertTree(root.left);

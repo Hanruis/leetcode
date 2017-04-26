@@ -1,11 +1,11 @@
 var {expect}  = require('chai');
-var InvertBinaryTree = require('../src/InvertBinaryTree');
+var {invertTree} = require('../src/InvertBinaryTree');
 
 
 describe('InvertBinaryTree', function() {
     
     it('should return null while node = null', () => {
-        expect(InvertBinaryTree(null)).to.equal(null)
+        expect(invertTree(null)).to.equal(null)
     });
     it('should inverTreeA', () => {
         const left = {
@@ -18,7 +18,7 @@ describe('InvertBinaryTree', function() {
             left,
             right:null
         }
-        InvertBinaryTree(node)
+        invertTree(node)
         expect(node.left).to.eql(null)
         expect(node.right).to.eql(left)
     });      

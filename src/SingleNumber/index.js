@@ -18,4 +18,4 @@ var singleNumber = function (nums) {
     });
     return num;
 };
-module.exports = singleNumber;
+exports.singleNumber = singleNumber;

@@ -41,7 +41,7 @@
     "no-internal-module": true,
     "no-trailing-whitespace": true,
     "no-inferrable-types": [true, "ignore-params"],
-    "no-null-keyword": true,
+    "no-null-keyword": false,
     "boolean-trivia": true,
     "type-operator-spacing": true,
     "prefer-const": true,
