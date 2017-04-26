@@ -1,5 +1,5 @@
 var {expect}  = require('chai');
-var { moveZeroes, moveZeroes2 } = require('../src/moveZeroes')
+var { moveZeroes, moveZeroes2 } = require('../src/MoveZeroes')
 
 describe('moveZeroes', () => {
     
