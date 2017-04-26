@@ -11,7 +11,7 @@
  * @return {boolean}
  */
 
-interface TreeNode {
+export interface TreeNode {
     val: number;
     left: TreeNode;
     right: TreeNode;

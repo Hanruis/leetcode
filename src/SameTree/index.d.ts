@@ -10,9 +10,10 @@
  * @param {TreeNode} q
  * @return {boolean}
  */
-interface TreeNode {
+export interface TreeNode {
     val: number;
     left: TreeNode;
     right: TreeNode;
 }
 declare const isSameTree: (sourceTree: TreeNode, targetTree: TreeNode) => any;
+export { isSameTree };
