@@ -11,4 +11,4 @@ function findMaxDepth(node, depth) {
 function maxDepth(root) {
     return findMaxDepth(root, 0);
 }
-module.exports = maxDepth;
+exports.maxDepth = maxDepth;

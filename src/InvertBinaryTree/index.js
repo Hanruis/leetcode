@@ -10,15 +10,14 @@
  * @return {TreeNode}
  */
 "use strict";
-var invertTree = function (root) {
+exports.invertTree = function (root) {
     if (!root) {
-        return null;
+        return;
     }
-    invertTree(root.left);
-    invertTree(root.right);
+    exports.invertTree(root.left);
+    exports.invertTree(root.right);
     var left = root.left, right = root.right;
     root.left = right;
     root.right = left;
     return root;
 };
-module.exports = invertTree;

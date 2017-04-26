@@ -10,16 +10,16 @@
  * @return {TreeNode}
  */
 
-interface TreeNode{
+export interface TreeNode{
     val: number;
     left: TreeNode|null;
     right: TreeNode|null;
 }
 
-const invertTree = function(root: TreeNode): TreeNode {
+export const invertTree = function(root: TreeNode): TreeNode {
 
-    if (!root){
-        return null;
+    if (!root) {
+        return;
     }
 
     invertTree(root.left);
@@ -29,8 +29,5 @@ const invertTree = function(root: TreeNode): TreeNode {
     root.left = right;
     root.right = left;
 
-
     return root;
 };
-
-export = invertTree;
