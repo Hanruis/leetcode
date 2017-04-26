@@ -1,14 +1,6 @@
 var {expect} = require('chai')
 var {isSameTree} = require("../src/SameTree")
-
-
-function createTreeNode(val) {
-    return {
-        val,
-        left:null,
-        right:null
-    }
-}
+var { createTreeNode } = require("./utils")
 
 describe('SameTree:isSameTree', () => {
     

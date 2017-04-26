@@ -3,7 +3,7 @@
  * @return {number}
  */
 const majorityElement = function (nums: number[]): number {
-    const counterMap: Object = {};
+    const counterMap: Object = Object.create(null);
     const len = nums.length;
     let majorityEle: any;
     let i = 0;

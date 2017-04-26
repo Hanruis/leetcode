@@ -4,7 +4,7 @@
  * @return {number}
  */
 var majorityElement = function (nums) {
-    var counterMap = {};
+    var counterMap = Object.create(null);
     var len = nums.length;
     var majorityEle;
     var i = 0;
