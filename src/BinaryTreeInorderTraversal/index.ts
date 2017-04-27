@@ -16,7 +16,7 @@ const inorderTraversal = function (root: ITreeNode): number[] {
 
     let result: number[] = [];
 
-    if (!root) {
+    if (!root){
         return result;
     }
 
