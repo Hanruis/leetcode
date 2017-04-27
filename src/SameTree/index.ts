@@ -10,14 +10,9 @@
  * @param {TreeNode} q
  * @return {boolean}
  */
+import { ITreeNode } from '../interface';
 
-export interface TreeNode {
-    val: number;
-    left: TreeNode;
-    right: TreeNode;
-}
-
-const isSameTree = function (sourceTree: TreeNode, targetTree: TreeNode) {
+const isSameTree = function (sourceTree: ITreeNode, targetTree: ITreeNode) {
     if (sourceTree && targetTree) {
         if (sourceTree.val === targetTree.val) {
             return isSameTree(sourceTree.left, targetTree.left) && isSameTree(sourceTree.right, targetTree.right);

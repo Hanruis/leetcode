@@ -11,10 +11,7 @@
  */
 
 
-export interface IListNode {
-    val: number;
-    next: IListNode;
-}
+import { IListNode } from '../interface';
 
 const reverseList = function (head: IListNode) {
 

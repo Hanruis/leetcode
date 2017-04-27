@@ -10,11 +10,7 @@
  * @return {number[]}
  */
 
-export interface ITreeNode {
-    val: number;
-    left: ITreeNode;
-    right: ITreeNode;
-}
+import { ITreeNode } from '../interface';
 
 const inorderTraversal = function (root: ITreeNode): number[] {
 

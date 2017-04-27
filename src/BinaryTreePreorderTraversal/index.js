@@ -7,7 +7,9 @@
  */
 /**
  * @param {TreeNode} root
- * @return {TreeNode}
+ * @return {number[]}
  */
-import { ITreeNode } from '../interface';
-export declare const invertTree: (root: ITreeNode) => ITreeNode;
+"use strict";
+var preorderTraversal = function (root) {
+};
+exports.preorderTraversal = preorderTraversal;

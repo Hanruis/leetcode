@@ -9,13 +9,10 @@
  * @param {TreeNode} root
  * @return {number}
  */
-export interface TreeNode {
-    val: number;
-    left: TreeNode|null;
-    right: TreeNode|null;
-}
 
-function findMaxDepth(node: TreeNode, depth: number): number {
+import { ITreeNode } from '../interface';
+
+function findMaxDepth(node: ITreeNode, depth: number): number {
     if (!node) {
         return depth;
     } else {
@@ -25,7 +22,7 @@ function findMaxDepth(node: TreeNode, depth: number): number {
 }
 
 
-function maxDepth(root: TreeNode): number {
+function maxDepth(root: ITreeNode): number {
     return findMaxDepth(root, 0);
 }
 

@@ -9,10 +9,6 @@
  * @param {TreeNode} root
  * @return {number}
  */
-export interface TreeNode {
-    val: number;
-    left: TreeNode | null;
-    right: TreeNode | null;
-}
-declare function maxDepth(root: TreeNode): number;
+import { ITreeNode } from '../interface';
+declare function maxDepth(root: ITreeNode): number;
 export { maxDepth };
