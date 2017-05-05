@@ -2,7 +2,7 @@ var {expect} = require('chai')
 var {rotate} = require("../src/RotateImage")
 
 
-describe.only('RotateImage:rotate', () => {
+describe('RotateImage:rotate', () => {
     
     it(`should be [[1]] while [[1]]`, () => {
 
