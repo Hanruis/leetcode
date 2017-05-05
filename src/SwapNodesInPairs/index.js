@@ -15,7 +15,6 @@ var swapPairs = function (head) {
     var trailingNode = head ? head.next : null;
     var prevListEnd = head;
     // 交换开头的一对，并设置 head
-    // 可以通过借助一个临时的节点作为开头，这样就不用先做一次交换，代码也更加清晰。
     if (trailingNode) {
         prevListEnd = leadingNode;
         head = trailingNode;
