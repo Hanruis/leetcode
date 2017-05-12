@@ -7,3 +7,8 @@ export interface IListNode {
     val: number;
     next: IListNode;
 }
+export interface TreeLinkNode {
+    left: TreeLinkNode;
+    right: TreeLinkNode;
+    next: TreeLinkNode;
+}

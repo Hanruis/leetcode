@@ -3,7 +3,7 @@ var {sortColors} = require("../src/SortColors")
 
 
 
-describe.only('SortColors:sortColors', () => {
+describe('SortColors:sortColors', () => {
     
     it('should be [] while []', () => {
         const array = []

@@ -42,6 +42,11 @@ function arrayToLinkedList(array) {
     return head;
 }
 
+
+function arrayToBinarySearchTree(arr) {
+    
+}
+
 exports.createTreeNode = createTreeNode;
 exports.createListNode = createListNode;
 exports.linkedListToArray = linkedListToArray;
