@@ -3,7 +3,7 @@ var {connect2,connect} = require("../src/PopulatingNextRightPointersInEachNode")
 var {BinaryTree} = require("../src/BinarySearchTree")
 
 
-describe.only('PopulatingNextRightPointersInEachNode:connect2', () => {
+describe('PopulatingNextRightPointersInEachNode:connect2', () => {
     
 
     it('should be link correct , root = null', () => {
@@ -53,7 +53,7 @@ describe.only('PopulatingNextRightPointersInEachNode:connect2', () => {
 });
     
 
-describe.only('PopulatingNextRightPointersInEachNode:connect', () => {
+describe('PopulatingNextRightPointersInEachNode:connect', () => {
     
 
     it('should be link correct , root = null', () => {
