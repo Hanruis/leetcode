@@ -3,7 +3,7 @@ var {minDepth} = require("../src/MinimumDepthofBinaryTree")
 var { createTreeNode } = require("./utils")
 
 
-describe.only('MinimumDepthofBinaryTree:minDepth', () => {
+describe('MinimumDepthofBinaryTree:minDepth', () => {
     
     it('should 0 while node = null', () => {
         expect(minDepth(null)).to.eq(0)
