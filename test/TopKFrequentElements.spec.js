@@ -2,7 +2,7 @@ var {expect} = require('chai')
 var { topKFrequent} = require("../src/TopKFrequentElements")
 
 
-describe.only('TopKFrequentElements:topKFrequent', () => {
+describe('TopKFrequentElements:topKFrequent', () => {
     it('should be [1,2] while [1,1,1,2,2,3]', () => {
         expect(topKFrequent([1,1,1,2,2,3], 2)).to.eql([1,2])
     });
