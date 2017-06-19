@@ -2,7 +2,7 @@ var {expect} = require('chai')
 var {longestPalindrome} = require("../src/LongestPalindrome")
 
 
-describe.only('LongestPalindrome:longestPalindrome', () => {
+describe('LongestPalindrome:longestPalindrome', () => {
     
     it('should 0 while str = ""', () => {
         expect(longestPalindrome("")).to.eq(0)
