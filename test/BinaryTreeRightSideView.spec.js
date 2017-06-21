@@ -2,7 +2,7 @@ var {expect} = require('chai')
 var {rightSideView} = require("../src/BinaryTreeRightSideView")
 var {createTreeNode} = require("./utils")
 
-describe.only('BinaryTreeRightSideView:rightSideView', () => {
+describe('BinaryTreeRightSideView:rightSideView', () => {
     
     it(`should be [1,3,4] while tree =  
           1              <---
